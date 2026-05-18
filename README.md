@@ -13,6 +13,8 @@
 
 I build playful tools around custom firmware, app structure, and small experiments that make messy workflows easier to understand. My main focus right now is **Omiiba3DS**, but I also work on macOS planning tools, Kotlin experiments, and creative TypeScript projects.
 
+These projects are directed, tested, and maintained by me. I use AI tools as a coding assistant sometimes, but the ideas, choices, releases, and hands-on testing are mine.
+
 ```text
 current mood: warm brown menus, tiny consoles, cleaner setup flows
 main stack:   C / Swift / Kotlin / TypeScript / docs that people can actually follow
