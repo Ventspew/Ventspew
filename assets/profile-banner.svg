@@ -1,56 +1,59 @@
 <svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">macdirtycow profile banner</title>
-  <desc id="desc">A warm brown developer banner for macdirtycow with project chips and a tiny handheld console illustration.</desc>
+  <desc id="desc">Omiiba.dev style profile banner with gradient accent and clean dark layout.</desc>
   <defs>
-    <radialGradient id="glow" cx="50%" cy="40%" r="65%">
-      <stop offset="0%" stop-color="#cc6600" stop-opacity="0.35"/>
-      <stop offset="55%" stop-color="#3a2014" stop-opacity="0.45"/>
-      <stop offset="100%" stop-color="#100905"/>
-    </radialGradient>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6e7bff" stop-opacity="0.45"/>
+      <stop offset="42%" stop-color="#5ac8fa" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#bf5af2" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="accentBar" x1="0" x2="1" y1="0" y2="0">
+      <stop stop-color="#6e7bff"/>
+      <stop offset="0.42" stop-color="#5ac8fa"/>
+      <stop offset="1" stop-color="#bf5af2"/>
+    </linearGradient>
     <linearGradient id="card" x1="0" x2="1" y1="0" y2="1">
-      <stop stop-color="#3a2115"/>
-      <stop offset="1" stop-color="#17100c"/>
+      <stop stop-color="#1c1c1e"/>
+      <stop offset="1" stop-color="#161617"/>
     </linearGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.45"/>
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.55"/>
     </filter>
   </defs>
 
-  <rect width="1200" height="420" rx="34" fill="#100905"/>
-  <rect width="1200" height="420" rx="34" fill="url(#glow)"/>
-  <path d="M0 340C150 295 268 365 425 318C585 270 690 250 850 302C990 348 1085 315 1200 285V420H0V340Z" fill="#1b100b" opacity="0.88"/>
-  <path d="M0 85C150 32 269 74 405 54C550 33 660 -5 810 42C965 91 1050 74 1200 35V0H0V85Z" fill="#2a170f" opacity="0.7"/>
+  <rect width="1200" height="420" rx="28" fill="#000000"/>
+  <rect width="1200" height="420" rx="28" fill="url(#heroGrad)"/>
+  <path d="M0 300C200 260 320 330 520 290C720 250 900 270 1200 240V420H0V300Z" fill="#161617" opacity="0.85"/>
 
   <g filter="url(#shadow)">
-    <rect x="78" y="78" width="642" height="264" rx="28" fill="url(#card)" stroke="#8a4b24" stroke-width="2"/>
-    <rect x="108" y="108" width="84" height="10" rx="5" fill="#cc6600"/>
-    <text x="108" y="165" fill="#fff0d0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="56" font-weight="800">macdirtycow</text>
-    <text x="111" y="205" fill="#ffcc8a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">custom firmware experiments + practical apps</text>
-    <text x="111" y="246" fill="#d8bfa4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20">Omiiba3DS " Structify " earthpods " creative tools</text>
+    <rect x="72" y="72" width="656" height="276" rx="24" fill="url(#card)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+    <rect x="104" y="104" width="120" height="8" rx="4" fill="url(#accentBar)"/>
+    <text x="104" y="158" fill="#f5f5f7" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="52" font-weight="700" letter-spacing="-0.02em">macdirtycow</text>
+    <text x="106" y="198" fill="#a1a1a6" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="22" font-weight="500">Independent software · omiiba.dev</text>
+    <text x="106" y="236" fill="#86868b" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="18">Omiiba3DS · Omiiba Connect · Structify · experiments</text>
     <g>
-      <rect x="108" y="278" width="120" height="34" rx="17" fill="#cc6600"/>
-      <text x="130" y="301" fill="#130c08" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="800">3DS CFW</text>
-      <rect x="242" y="278" width="120" height="34" rx="17" fill="#2b1810" stroke="#8a4b24"/>
-      <text x="268" y="301" fill="#fff0d0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Swift</text>
-      <rect x="376" y="278" width="120" height="34" rx="17" fill="#2b1810" stroke="#8a4b24"/>
-      <text x="398" y="301" fill="#fff0d0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Kotlin</text>
-      <rect x="510" y="278" width="150" height="34" rx="17" fill="#2b1810" stroke="#8a4b24"/>
-      <text x="535" y="301" fill="#fff0d0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">TypeScript</text>
+      <rect x="104" y="272" width="118" height="34" rx="17" fill="#0071e3"/>
+      <text x="126" y="295" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">3DS CFW</text>
+      <rect x="234" y="272" width="118" height="34" rx="17" fill="#161617" stroke="rgba(255,255,255,0.14)"/>
+      <text x="256" y="295" fill="#f5f5f7" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">macOS</text>
+      <rect x="364" y="272" width="100" height="34" rx="17" fill="#161617" stroke="rgba(255,255,255,0.14)"/>
+      <text x="386" y="295" fill="#f5f5f7" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">Swift</text>
+      <rect x="476" y="272" width="100" height="34" rx="17" fill="#161617" stroke="rgba(255,255,255,0.14)"/>
+      <text x="494" y="295" fill="#f5f5f7" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">Kotlin</text>
+      <rect x="588" y="272" width="120" height="34" rx="17" fill="#161617" stroke="rgba(255,255,255,0.14)"/>
+      <text x="604" y="295" fill="#f5f5f7" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">TypeScript</text>
     </g>
   </g>
 
   <g filter="url(#shadow)">
-    <rect x="806" y="82" width="292" height="224" rx="32" fill="#2b1810" stroke="#8a4b24" stroke-width="3"/>
-    <rect x="848" y="116" width="208" height="122" rx="12" fill="#130c08" stroke="#5e341d"/>
-    <rect x="870" y="137" width="164" height="12" rx="6" fill="#cc6600"/>
-    <rect x="870" y="165" width="128" height="10" rx="5" fill="#fff0d0" opacity="0.86"/>
-    <rect x="870" y="190" width="140" height="10" rx="5" fill="#8a4b24"/>
-    <circle cx="846" cy="264" r="18" fill="#130c08" stroke="#8a4b24" stroke-width="3"/>
-    <circle cx="1058" cy="264" r="18" fill="#cc6600"/>
-    <rect x="930" y="260" width="45" height="10" rx="5" fill="#8a4b24"/>
+    <rect x="792" y="88" width="320" height="220" rx="28" fill="#161617" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+    <rect x="832" y="128" width="240" height="132" rx="14" fill="#000000" stroke="rgba(255,255,255,0.1)"/>
+    <rect x="856" y="152" width="192" height="10" rx="5" fill="url(#accentBar)"/>
+    <rect x="856" y="178" width="148" height="8" rx="4" fill="#f5f5f7" opacity="0.9"/>
+    <rect x="856" y="200" width="168" height="8" rx="4" fill="#3a3a3c"/>
+    <rect x="856" y="222" width="120" height="8" rx="4" fill="#3a3a3c"/>
+    <circle cx="828" cy="268" r="16" fill="#000000" stroke="rgba(255,255,255,0.14)" stroke-width="2"/>
+    <circle cx="1076" cy="268" r="16" fill="#0071e3"/>
+    <rect x="908" y="264" width="48" height="8" rx="4" fill="#3a3a3c"/>
   </g>
-
-  <circle cx="760" cy="70" r="4" fill="#ffcc8a"/>
-  <circle cx="1120" cy="350" r="5" fill="#cc6600"/>
-  <circle cx="740" cy="360" r="3" fill="#fff0d0"/>
 </svg>
