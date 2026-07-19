@@ -1,6 +1,6 @@
 <div align="center">
 
-![Ventspew banner](./assets/profile-banner.svg)
+![Ventspew banner](./assets/ventspew-banner.png)
 
 [![Profile views](https://komarev.com/ghpvc/?username=Ventspew&style=for-the-badge&color=e8ecf4&labelColor=0f1419&label=PROFILE+VIEWS)](https://github.com/Ventspew)
 [![Followers](https://img.shields.io/github/followers/Ventspew?style=for-the-badge&color=e8ecf4&labelColor=1a2332)](https://github.com/Ventspew?tab=followers)
@@ -29,7 +29,7 @@ home:          https://inveil.net
 
 ## Project map
 
-![project map](./assets/project-map.svg)
+![project map](./assets/ventspew-project-map.png)
 
 ## Featured work
 
