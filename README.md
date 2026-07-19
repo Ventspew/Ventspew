@@ -17,7 +17,7 @@
 
 I run **[Inveil](https://inveil.net)** and build **[Qadbak](https://github.com/Ventspew/qadbak)** — a self-hosted Linux hosting panel for your own VPS. Premium licenses ship via Stripe at [license.inveil.dev](https://license.inveil.dev).
 
-Side projects include **[Omiiba3DS](https://github.com?Ventspew/Omiiba3DS)**, **[Omiiba Connect](https://github.com/Ventspew/OmiibaConnect)**, Structify, and smaller experiments.
+Side projects include **[Omiiba3DS](https://github.com/Ventspew/Omiiba3DS)**, **[Omiiba Connect](https://github.com/Ventspew/OmiibaConnect)**, Structify, and smaller experiments.
 
 Ideas, releases, and hands-on testing are mine. I sometimes use AI as a coding assistant; direction and quality calls stay human.
 
